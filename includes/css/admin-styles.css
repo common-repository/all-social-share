@@ -1,0 +1,112 @@
+.wrap h2 { color: #333;margin-bottom: 16px;}
+.assp-admin-tab-content { border: 1px solid #ccc;padding: 20px;background-color: #fff;border-radius: 0 0 5px 5px;
+}
+.nav-tab-wrapper { margin: 20px 0; border-bottom: 1px solid #ccc; }
+.nav-tab { display: inline-block; background-color: #f1f1f1; border: 1px solid #ccc;border-bottom: none;padding: 6px 12px;
+    text-decoration: none;font-size: 16px;color: #555;margin-left: 0;}
+.nav-tab:hover { background-color: #e7e7e7; }
+.nav-tab-active { background-color: #fff; color: #000; border-color: #ccc #ccc transparent;}
+.social-share-tab-content {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+}
+.form-table {
+    width: 100%;
+    margin-top: 20px;
+}
+.form-table th {
+    padding: 20px;
+    text-align: left;
+    color: #333;
+    width: 30%;
+}
+.form-table td {
+    padding: 20px;
+    color: #666;
+}
+.toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+.toggle-switch input { 
+    display:none;
+}
+.toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+.toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+input:checked + .toggle-slider {
+    background-color: #2196F3;
+}
+input:focus + .toggle-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+input:checked + .toggle-slider:before {
+    transform: translateX(26px);
+}
+.button-primary {
+    background-color: #0085ba;
+    border-color: #0073aa;
+    color: #fff;
+    cursor: pointer;
+}
+.button-primary:hover {
+    background-color: #0073aa;
+}
+.submit {
+    margin-top: 20px;
+}
+label {
+    margin-right: 20px;
+    font-size: 16px;
+}
+/* Improve form elements alignment and spacing */
+.form-table tr {
+    border-bottom: 1px solid #eee;
+}
+.form-table tr:last-child {
+    border-bottom: none;
+}
+/* Style adjustments for radio buttons */
+label input[type="radio"] {
+    margin-right: 8px;
+}
+div#assp-social-share {
+    border: 1px solid #c3c4c7;
+    background: #fff;
+}
+div#assp-social-share p.submit {
+    padding: 20px;
+}
+div#assp-admin-section {
+    border: 1px solid #c3c4c7;
+    background: #fff;
+}
+div#assp-admin-section p.submit {
+    padding: 20px;
+}
+.assp_postss {
+    padding: 10px 0;
+}
